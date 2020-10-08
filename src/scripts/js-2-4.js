@@ -12,9 +12,13 @@ import "../scss/js-2-4.scss";
 import axios from 'axios';
 /** https://flaviocopes.com/axios/ **/
 let apiUrl = "https://character-database.becode.xyz/characters";
+
 //fct to display characters datas and buttons more ino / edit / delete
 function getCharcterData() {
+  debugger;
+  console.log(apiUrl);
         axios.get(apiUrl)
+        
         .then(function (response) {
             for (let i = 0; i < 100; i++){
                 //variables declaration
