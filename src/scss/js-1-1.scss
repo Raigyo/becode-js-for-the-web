@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "blue red green";
+
+}
+#blue {
+  grid-area: blue;
+  background-color: blue;
+  color:yellow;
+}
+#red {
+  grid-area: red;
+  background-color: red;
+  color:yellow;
+}
+#green {
+  grid-area: green;
+  background-color: green;
+  color:yellow;
+}
+/*black square*/
+#square{
+	height: 100px;;
+	width: 100px;
+	background: black;
+  margin-top: 50px;
+}
