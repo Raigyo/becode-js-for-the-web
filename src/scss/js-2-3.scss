@@ -1,29 +1,116 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 1fr;
-  grid-template-areas: "blue red green";
 
+.over{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
 }
-#blue {
-  grid-area: blue;
-  background-color: blue;
-  color:yellow;
+
+.cookie{
+	height: 368px;
+	width: 310px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #8F6201;
+	border-width: 4px;
 }
-#red {
-  grid-area: red;
-  background-color: red;
-  color:yellow;
+
+.cookieButton:active {
+  box-shadow: 0 5px #666;
+  background-color: rgba(0,0,0,0.3);
+  transform: translateY(4px);
 }
-#green {
-  grid-area: green;
-  background-color: green;
-  color:yellow;
+
+.counter{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
 }
-/*black square*/
-#square{
-	height: 100px;;
-	width: 100px;
-	background: black;
-  margin-top: 50px;
+
+.buy{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+	width: 680px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #8F6201;
+	border-width: 4px;
+}
+
+.fb-share-button{
+	align-self: flex-end;
+	margin-right: 15px;
+}
+
+.buy p{
+	padding-left: 15px;
+	padding-right: 25px;
+	font-size: 20px;
+}
+
+.multiplier{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.autoClick{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.multiplierButton{
+	color: white;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.3);
+	border-color: #BE8305;
+	border-width: 4px;
+	box-shadow: 4px 4px 4px black;
+}
+
+.autoClickButton{
+	color: white;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.3);
+	border-color: #BE8305;
+	border-width: 4px;
+  box-shadow: 4px 4px 4px black;
+  margin-right: 15px;
+}
+
+.multiplierButton:focus{
+	outline: none;
+}
+
+.autoClickButton:focus{
+	outline: none;
+}
+
+.game{
+	display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #16232E;
+  border: #FEFEFE solid 1px;
+}
+
+.factories{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.factories img{
+  margin-top: 15px;
 }

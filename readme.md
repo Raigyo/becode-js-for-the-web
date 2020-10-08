@@ -183,3 +183,7 @@ Modify both the create and edit modals to allow the edition of the image.
 ### 2.4.6 - Delete
 
 Add a "Delete" button to delete characters. It should display a modal asking for confirmation.
+
+# Useful links
+
+- [Becode: JavaScript for the Web](https://github.com/becodeorg/LIE-Jepsen-1.9/tree/master/01-La-prairie/js-web)
