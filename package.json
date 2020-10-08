@@ -4,12 +4,13 @@
   "description": "A simple template to use in Becode's JavaScript exercises.",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url ./ --out-dir docs",
-    "deploy": "parcel build index.html --public-url https://raigyo.github.io/becode-js-for-the-web/"
+    "build": "parcel build index.html --public-url https://raigyo.github.io/becode-js-for-the-web/",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.27.0"
   },
